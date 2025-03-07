@@ -747,9 +747,8 @@ button {
 }
 .input-wrapper {
   position: relative;
-
 }
-.modal-window-comment{
+.modal-window-comment {
   margin-bottom: 16px;
 }
 .modal-input {
@@ -792,6 +791,7 @@ button {
   letter-spacing: 0.04em;
   color: rgba(46, 47, 66, 0.4);
   background-color: transparent;
+  outline: transparent;
   resize: none;
   padding: 8px 16px;
 
