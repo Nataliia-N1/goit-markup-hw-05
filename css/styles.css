@@ -747,6 +747,10 @@ button {
 }
 .input-wrapper {
   position: relative;
+
+}
+.modal-window-comment{
+  margin-bottom: 16px;
 }
 .modal-input {
   width: 100%;
@@ -771,7 +775,9 @@ button {
 
   pointer-events: none;
 }
-
+.modal-input:focus {
+  border-color: #4d5ae5;
+}
 .modal-input:focus + .modal-icons {
   fill: #4d5ae5;
 }
