@@ -638,7 +638,7 @@ button {
 }
 
 .backdrop:not(is-open) .modal {
-  transform: translate(-50%, -50%) scale(1.5);
+  transform: translate(-50%, -50%);
 }
 
 .modal {
@@ -720,8 +720,7 @@ button {
 .modal-form {
   display: flex;
 
-  /* align-items: flex-start; */
-  /* justify-content: flex-start; */
+
 
   flex-direction: column;
   gap: 8px;
